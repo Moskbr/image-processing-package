@@ -1,27 +1,29 @@
-# package_name
+# Image Processing
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package Image Processing is used to:
+
+	- Combination and Transformation of images evaluated with histograms matching and structural similarity.
+	- Resize images.
+	- Utils: read, save and plot images.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `image_processing`
 
 ```bash
-pip install package_name
+pip install image_processing
 ```
 
 ## Usage
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from image_processing.processing import combination
+combination.find_difference()
 ```
 
 ## Author
-My_name
+Luiz F. C. Pereira
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
