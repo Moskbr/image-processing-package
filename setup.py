@@ -12,5 +12,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Moskbr/image-processing-package",
     packages=find_packages(),
-    requires=requirements
+    install_requires=requirements,
+    python_requires='>=3.5',
 )
+
